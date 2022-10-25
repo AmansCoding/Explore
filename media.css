@@ -1,0 +1,498 @@
+@media (max-width: 1338px) {
+  .projecttitle {
+    font-size: 1.2em;
+  }
+  .projectcategory {
+    font-size: 0.9em;
+  }
+
+  .dropdown1items,
+  .dropdown2items {
+    font-size: 0.9em;
+  }
+
+  .compliment {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 1190px) {
+  .navs,
+  .rightnavs,
+  .readmorebtn1,
+  .blogdes,
+  .learnmore1,
+  .rightpartpara,
+  .recentblogdescription,
+  .owner,
+  .compliment,
+  .projecttitle,
+  .projectdescription,
+  .featureparas,
+  .copyright,
+  .developer,
+  .getstarteddes,
+  .getInTouch-link {
+    font-size: 1em;
+  }
+  .webheading,
+  .recentblogheading,
+  .ourclients,
+  .projectheading {
+    font-size: 2.7em;
+  }
+  .heading2 {
+    font-size: 3em;
+  }
+  .joinnow,
+  .blogdate,
+  .messagerpost {
+    font-size: 0.9em;
+  }
+  .developer {
+    font-size: 1em;
+  }
+  .blogheading {
+    font-size: 1.2em;
+  }
+  .link {
+    font-size: 0.9em;
+  }
+  .partrightheading {
+    font-size: 1.5em;
+  }
+
+  .getstartedheading {
+    font-size: 2.5em;
+  }
+  .featureheading {
+    font-size: 1.8em;
+  }
+  .dropdown1items,
+  .dropdown2items {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 1000px) {
+  .navs,
+  .rightnavs,
+  .readmorebtn1,
+  .blogdes,
+  .learnmore1,
+  .read-more-link,
+  .rightpartpara,
+  .recentblogdescription,
+  .owner,
+  .compliment,
+  .projecttitle,
+  .projectdescription,
+  .featureparas,
+  .copyright,
+  .developer,
+  .getstarteddes,
+  .getInTouch-link {
+    font-size: 0.9em;
+  }
+  .webheading,
+  .recentblogheading,
+  .ourclients,
+  .projectheading {
+    font-size: 2.5em;
+  }
+  .heading2 {
+    font-size: 2.8em;
+  }
+  .joinnow,
+  .blogdate,
+  .messagerpost {
+    font-size: 0.8em;
+  }
+  .developer {
+    font-size: 1em;
+  }
+  .blogheading {
+    font-size: 1.1em;
+  }
+  .link {
+    font-size: 0.8em;
+  }
+  .partrightheading {
+    font-size: 1.4em;
+  }
+
+  .getstartedheading {
+    font-size: 2.4em;
+  }
+  .featureheading {
+    font-size: 1.6em;
+  }
+  .dropdown1items,
+  .dropdown2items {
+    font-size: 0.7em;
+  }
+
+  .messageowner {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 850px) {
+  .navs,
+  .rightnavs,
+  .readmorebtn1,
+  .blogdes,
+  .learnmore1,
+  .read-more-link,
+  .rightpartpara,
+  .recentblogdescription,
+  .owner,
+  .compliment,
+  .projecttitle,
+  .projectdescription,
+  .featureparas,
+  .copyright,
+  .developer,
+  .getstarteddes,
+  .getInTouch-link {
+    font-size: 0.8em;
+  }
+  .webheading,
+  .recentblogheading,
+  .ourclients,
+  .projectheading {
+    font-size: 2.2em;
+  }
+  .heading2 {
+    font-size: 2.7em;
+  }
+  .joinnow,
+  .blogdate,
+  .messagerpost {
+    font-size: 0.7em;
+  }
+  .developer {
+    font-size: 1em;
+  }
+  .blogheading {
+    font-size: 1em;
+  }
+  .link {
+    font-size: 0.6em;
+  }
+  .partrightheading {
+    font-size: 1.3em;
+  }
+
+  .getstartedheading {
+    font-size: 2.3em;
+  }
+  .featureheading {
+    font-size: 1.5em;
+  }
+  .dropdown1items,
+  .dropdown2items {
+    font-size: 0.6em;
+  }
+
+  .projectlists {
+    grid-template-columns: auto auto;
+  }
+
+  .messageowner {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 675px) {
+  .webheading {
+    font-size: 1.9em;
+  }
+}
+
+@media (max-width: 625px) {
+  .navs,
+  .rightnavs,
+  .readmorebtn1,
+  .blogdes,
+  .learnmore1,
+  .read-more-link,
+  .rightpartpara,
+  .recentblogdescription,
+  .owner,
+  .compliment,
+  .projecttitle,
+  .projectdescription,
+  .featureparas,
+  .copyright,
+  .developer,
+  .getstarteddes,
+  .getInTouch-link {
+    font-size: 0.65em;
+  }
+
+  .recentblogheading,
+  .ourclients,
+  .projectheading {
+    font-size: 2em;
+  }
+  .webheading {
+    font-size: 1.6em;
+  }
+  .heading2 {
+    font-size: 2em;
+  }
+  .joinnow,
+  .blogdate,
+  .messagerpost {
+    font-size: 0.55em;
+  }
+  .developer {
+    font-size: 1em;
+  }
+  .blogheading {
+    font-size: 0.8em;
+  }
+  .link {
+    font-size: 0.5em;
+  }
+  .partrightheading {
+    font-size: 1.1em;
+  }
+
+  .getstartedheading {
+    font-size: 2.1em;
+  }
+  .featureheading {
+    font-size: 1.2em;
+  }
+  .dropdown1items,
+  .dropdown2items {
+    font-size: 0.5em;
+  }
+
+  .projectlists {
+    grid-template-columns: auto auto;
+  }
+
+  .reviews {
+    grid-template-columns: auto;
+    border: 2px solid transparent;
+    border-radius: 16px;
+  }
+
+  .compliment {
+    width: 100%;
+    padding: 5% 1%;
+    text-align: center;
+    font-size: 1.2em;
+    color: gray;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 16px;
+  }
+  .messageowner {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 525px) {
+  .navs,
+  .rightnavs,
+  .readmorebtn1,
+  .blogdes,
+  .learnmore1,
+  .rightpartpara,
+  .recentblogdescription,
+  .owner,
+  .compliment,
+  .projecttitle,
+  .projectdescription,
+  .featureparas,
+  .copyright,
+  .developer,
+  .getstarteddes,
+  .getInTouch-link {
+    font-size: 0.5em;
+  }
+
+  .recentblogheading,
+  .ourclients,
+  .projectheading {
+    font-size: 1.8em;
+  }
+  .webheading {
+    font-size: 1.3em;
+  }
+  .heading2 {
+    font-size: 1.7em;
+  }
+  .joinnow,
+  .blogdate,
+  .messagerpost {
+    font-size: 0.4em;
+  }
+  .joinnow {
+    width: 14%;
+  }
+  .developer {
+    font-size: 1em;
+  }
+  .blogheading {
+    font-size: 0.6em;
+  }
+  .link {
+    font-size: 0.4em;
+  }
+  .partrightheading {
+    font-size: 0.9em;
+  }
+
+  .getstartedheading {
+    font-size: 1.8em;
+  }
+  .featureheading {
+    font-size: 1em;
+  }
+  .dropdown1items,
+  .dropdown2items {
+    font-size: 0.4em;
+  }
+
+  .projectlists {
+    grid-template-columns: auto;
+  }
+
+  .compliment {
+    width: 100%;
+    padding: 5% 1%;
+    text-align: center;
+    font-size: 0.9em;
+    color: gray;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 16px;
+  }
+  .messageowner {
+    font-size: 0.8em;
+  }
+  .join-now-btn-link {
+    font-size: 0.6em;
+  }
+  .recentblog {
+    grid-template-columns: auto;
+  }
+  .blog {
+    margin-bottom: 5%;
+  }
+  .blogheading {
+    font-size: 1.4em;
+  }
+  .joinnow,
+  .blogdate,
+  .blogdes {
+    font-size: 1em;
+  }
+  .read-more-link {
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width: 425px) {
+  .navs,
+  .rightnavs,
+  .readmorebtn1,
+  .blogdes,
+  .learnmore1,
+  .rightpartpara,
+  .recentblogdescription,
+  .owner,
+  .compliment,
+  .projecttitle,
+  .projectdescription,
+  .featureparas,
+  .copyright,
+  .developer,
+  .getstarteddes,
+  .getInTouch-link {
+    font-size: 0.4em;
+  }
+
+  .recentblogheading,
+  .ourclients,
+  .projectheading {
+    font-size: 1.6em;
+  }
+  .webheading {
+    font-size: 1.1em;
+  }
+  .heading2 {
+    font-size: 1.5em;
+  }
+  .joinnow,
+  .blogdate,
+  .messagerpost {
+    font-size: 0.3em;
+  }
+  .joinnow {
+    width: 14%;
+  }
+
+  .blogheading {
+    font-size: 0.5em;
+  }
+  .developer {
+    font-size: 1em;
+  }
+  .link {
+    font-size: 0.35em;
+  }
+  .partrightheading {
+    font-size: 0.75em;
+  }
+
+  .getstartedheading {
+    font-size: 1.55em;
+  }
+  .featureheading {
+    font-size: 0.8em;
+  }
+  .dropdown1items,
+  .dropdown2items {
+    font-size: 0.35em;
+  }
+
+  .compliment {
+    font-size: 0.7em;
+  }
+  .messageowner {
+    font-size: 0.55em;
+  }
+  .join-now-btn-link {
+    font-size: 0.45em;
+  }
+
+  .blogheading {
+    font-size: 1.15em;
+  }
+  .joinnow,
+  .blogdate,
+  .blogdes {
+    font-size: 0.8em;
+  }
+  .read-more-link {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 425px) {
+  .webheading {
+    font-size: 1em;
+  }
+  .heading2 {
+    font-size: 1.3em;
+  }
+  .navs {
+    font-size: 0.3em;
+  }
+}

@@ -1,0 +1,557 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Memorize This */
+body {
+  min-height: 100%;
+  max-width: 100%;
+}
+
+.webheader {
+  background: url("img_bg_1.avif") no-repeat scroll;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.navbar {
+  width: 80%;
+  margin: 4% auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  z-index: 15;
+}
+.leftnav {
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  padding: 1%;
+  justify-content: center;
+}
+.navs {
+  width: 25%;
+  list-style: none;
+  padding: 4%;
+  cursor: pointer;
+  color: white;
+  position: relative;
+}
+
+.servicesdropdown {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 5;
+  min-height: 20%;
+  margin: 2% 0;
+  text-align: center;
+  border: 2px solid white;
+  top: 100%;
+  padding: 10% 0;
+  background-color: white;
+  border-radius: 10%;
+  box-shadow: 5px 5px 5px 5px rgba(43, 42, 42, 0.353);
+}
+.dropdown1items {
+  list-style: none;
+  padding: 7% 0;
+}
+
+.webheading {
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0%;
+  font-size: 3em;
+  cursor: pointer;
+}
+.rightnav {
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1%;
+}
+.rightnavs {
+  width: 25%;
+  list-style: none;
+  padding: 1%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+.nav-links {
+  text-decoration: none;
+  color: white;
+}
+.nav-sub-links {
+  text-decoration: none;
+  color: gray;
+}
+.nav-sub-links:hover {
+  color: #000;
+}
+.toolsdropdown {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 5;
+  min-height: 20%;
+  margin: 2% 0;
+  text-align: center;
+  border: 2px solid white;
+  top: 100%;
+  padding: 10% 0;
+  background-color: white;
+  border-radius: 10%;
+  box-shadow: 5px 5px 5px 5px rgba(43, 42, 42, 0.353);
+}
+
+.dropdown2items {
+  list-style: none;
+  padding: 7% 0;
+  color: gray;
+}
+.dropdown2items:hover {
+  color: #000;
+}
+.headersection {
+  width: 90%;
+  margin: 10% auto;
+  text-align: center;
+  position: relative;
+  z-index: 15;
+}
+.heading2 {
+  width: 98%;
+  margin: 1% auto;
+  font-size: 4em;
+  padding: 1%;
+  color: white;
+}
+.developer {
+  color: black;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+.headersectionpara2 {
+  width: 80%;
+  margin: 1% auto;
+  padding: 1% 5%;
+  font-size: 1.1em;
+  color: white;
+}
+#emailinput {
+  width: 30%;
+  margin: 0 0% 0 8%;
+  padding: 1.2%;
+  border: 2px solid white;
+  background-color: #fff;
+  border-radius: 16px;
+  transition: all 0.5s ease-in-out;
+}
+#emailinput:hover {
+  background-color: rgba(190, 85, 10, 0.519);
+  color: #000;
+}
+.joinnow {
+  width: 10%;
+  padding: 1%;
+  background-color: tomato;
+  border: 2px solid tomato;
+  border-radius: 16px;
+  font-size: 1.1em;
+  transition: all 0.5s ease-in-out;
+}
+.joinnow:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+.join-now-btn-link {
+  text-decoration: none;
+  color: white;
+}
+
+.overlap1 {
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  z-index: 0;
+  background-color: rgba(245, 166, 18, 0.5);
+  overflow-y: hidden;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 3% 10%;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.feature {
+  width: 95%;
+  margin: 5% auto;
+}
+.featureheading {
+  width: 100%;
+  font-size: 2em;
+  margin: 5% auto;
+}
+.featureparas {
+  width: 100%;
+  font-size: 1.1em;
+  color: gray;
+}
+
+.ourprojects {
+  width: 90%;
+  margin: 8% auto;
+}
+.projectheading {
+  width: 90%;
+  margin: 2% auto;
+  font-size: 3em;
+  text-align: center;
+  padding: 1%;
+}
+.projectdescription {
+  width: 75%;
+  margin: 1% auto;
+  font-size: 1.1em;
+  padding: 0 5%;
+  text-align: center;
+}
+
+.projectlists {
+  width: 100%;
+  margin: 1% auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.project-details {
+  width: 90%;
+  margin: 5% auto;
+  position: relative;
+}
+.projects {
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.TD {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  z-index: 5;
+}
+
+.projecttitle {
+  font-size: 1.5em;
+  color: white;
+  cursor: pointer;
+}
+.projectcategory {
+  color: white;
+  cursor: pointer;
+}
+.projects:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px 5px rgba(43, 42, 42, 0.522);
+}
+
+.clientreviews {
+  background: url("img_bg_2.avif") no-repeat center scroll;
+  background-size: cover;
+  margin: 4% 0 0 0;
+  padding: 5% 10%;
+  position: relative;
+}
+.ourclients {
+  margin: 2%;
+  padding: 1%;
+  font-size: 3em;
+  text-align: center;
+  color: white;
+  position: relative;
+  z-index: 2;
+}
+.reviews {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 1% 5% 10% 5%;
+  position: relative;
+  z-index: 2;
+}
+.review {
+  width: 90%;
+  padding: 0%;
+  margin: 1% 2%;
+}
+.compliment {
+  width: 100%;
+  padding: 10% 1%;
+  text-align: center;
+  font-size: 1.5em;
+  color: gray;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 10%;
+}
+.messageowner {
+  width: 95%;
+  padding: 2% 10%;
+  color: white;
+  margin: auto;
+}
+.owner {
+  color: darkred;
+}
+.messagerpost {
+  width: 95%;
+  padding: 0 10%;
+  margin: auto;
+  color: floralwhite;
+}
+.overlay2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(26, 25, 25, 0.44);
+  top: 0%;
+  left: 0%;
+}
+
+.recentblogs {
+  width: 100%;
+  padding: 5% 5% 10% 5%;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.recentblogheading {
+  width: 90%;
+  margin: 1% auto;
+  padding: 2%;
+  font-size: 3em;
+  text-align: center;
+}
+.recentblogdescription {
+  width: 90%;
+  margin: 1% auto;
+  text-align: center;
+  font-size: 1.1em;
+  padding: 0 5% 3% 5%;
+  color: gray;
+}
+.recentblog {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.blog {
+  width: 85%;
+  margin: auto;
+  box-shadow: 5px 5px 5px 5px rgba(43, 42, 42, 0.353);
+}
+.blogimg {
+  width: 100%;
+}
+.blogheading {
+  width: 100%;
+  padding: 10% 1%;
+  text-align: center;
+
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: #fff;
+}
+.rate {
+  background-color: #fff;
+}
+.blogdate {
+  width: 25%;
+  padding: 1%;
+  background-color: tomato;
+  color: white;
+}
+.blogdes {
+  width: 100%;
+  font-size: 1.1em;
+  color: gray;
+  padding: 10% 1%;
+  text-align: center;
+  background-color: #fff;
+}
+.readmorebtns {
+  padding: 0% 0% 10% 5%;
+  background-color: #fff;
+}
+.readmorebtn1 {
+  width: 40%;
+  text-align: center;
+  padding: 3%;
+  border: 2px solid tomato;
+  border-radius: 16px;
+  background-color: tomato;
+  font-size: 1.1em;
+}
+.read-more-link {
+  text-decoration: none;
+  color: white;
+}
+
+.getstarted {
+  width: 100%;
+  background-color: #392f2f;
+  padding: 0 0 5% 0;
+}
+.getstartedheading {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  font-size: 3em;
+  padding: 7% 0 0% 0;
+  color: #fff;
+}
+.getstarteddes {
+  width: 70%;
+  margin: 2% auto;
+  text-align: center;
+  padding: 0 5%;
+  font-size: 1.1em;
+  color: gray;
+}
+.getintouch {
+  width: 20%;
+  margin: 3% auto;
+  text-align: center;
+  font-size: 1.1em;
+  background-color: tomato;
+  color: white;
+  border: 2px solid tomato;
+  border-radius: 16px;
+  padding: 1%;
+  cursor: pointer;
+}
+.getInTouch-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footerpart {
+  width: 100%;
+  background-color: #efefef;
+  padding: 2% 5%;
+}
+.footerpart1 {
+  margin-top: 2%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.partleft {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.links {
+  width: 50%;
+  margin: 5%;
+}
+.linklist {
+  width: 100%;
+  padding: 1%;
+}
+.link {
+  list-style: none;
+  margin: 8% 0;
+  padding: 1%;
+  border-bottom: 2px dotted;
+  cursor: pointer;
+}
+.footer-list-links {
+  text-decoration: none;
+  color: #000;
+}
+.partright {
+  padding: 2% 0%;
+}
+.partrightheading {
+  width: 100%;
+  margin: 0 auto 2% auto;
+  font-size: 2em;
+  text-align: center;
+}
+.rightpartpara {
+  width: 90%;
+  margin-top: 2%;
+  margin-left: auto;
+  font-size: 1.1em;
+  color: gray;
+}
+
+.learnmore1 {
+  width: 90%;
+  margin-top: 3%;
+  margin-left: auto;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+.learn-more-btn-link {
+  text-decoration: none;
+  color: tomato;
+}
+.copyrights {
+  width: 50%;
+  margin: 5% auto;
+  text-align: center;
+}
+.copyright {
+  width: 100%;
+  padding: 5%;
+  font-size: 1.1em;
+}
+.maker {
+  width: 50%;
+  margin: auto;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.developer {
+  text-decoration: none;
+  color: darkred;
+}
+
+.scrollTop {
+  width: 5%;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 1% 0;
+  background-color: rgba(138, 137, 137, 0.45);
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+  z-index: 20;
+  border: 2px solid rgba(138, 137, 137, 0.45);
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+/* classes for js code */
+
+.none {
+  display: none;
+}
